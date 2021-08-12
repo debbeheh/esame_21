@@ -1,0 +1,76 @@
+/*CSS GENERICO VALIDO PER TUTTE LE PAGINE*/
+
+/*Font*/
+h1, h2, h3, h4, h5, h6, p, a {
+	font-family: ;
+	line-height: 1.5;
+}
+
+/*bottoni*/
+.btn {
+	margin: 5px;
+}
+
+
+/*footer*/		
+footer {
+	padding-top: 20px;
+	background-color: #2F3137;
+	color: white;
+	text-align: center;
+	height: 120px;
+}		
+
+
+/*INDEX*/
+
+/*Carousel*/
+
+.carousel-item img{
+
+	object-fit:cover;
+}
+
+/*.carousel perchè è class (e vale per tutti gli elementi con questa class)*/
+.carousel-caption {
+	background-color: #2F3137;
+	border-radius: 10px;
+	opacity: 0.9;
+	padding-bottom: 30px;
+}
+
+.carousel_descrizione {
+	font-style: italic;
+}	
+
+ /*Il Progetto*/
+
+ /*# perchè è id (quindi id univoco che vale solo per quell'elemento)*/
+ #progetto {
+ 	height: auto;
+ 	background-color: #2F3137;
+ 	color: white;
+ 	text-align: left;
+ 	padding-top: 30px;
+ 	padding-bottom: 30px;
+ 	text-align: justify;
+ }
+
+#progetto img {
+	float: left;
+ 	object-fit: scale-down;
+ 	padding-top: 20px;
+ 	padding-right: 20px;
+ 	padding-bottom: 10px;
+ }
+
+/*Ultime News-Cards*/
+#cards_home {;
+	margin-top: 35px;
+	margin-bottom: 10px;
+}
+
+.card {;
+	margin-bottom: 20px;
+	box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
