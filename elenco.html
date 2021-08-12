@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>INSERIRE TITOLO</title>
+		<meta charset="UTF-8"/>
+		<meta name="keywords" content="INSERIRE, TAGS">
+		<meta name="description" content="INSERIRE DESCRIZIONE"/>
+		<meta name="author" content="Debora Mazza"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+		<!--Bootstrap CSS-->
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+		<!--CSS-->
+		<link rel="stylesheet" href="foglio_stile.css">
+		<!--Bootstrap Icon CDN-->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+	</head>
+
+	<body>
+
+		<header>
+			<h1>TITOLO</h1>
+
+			<!--navbar-->
+			<nav>
+				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				  <a class="navbar-brand" href="#">Titolo?</a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				    <ul class="navbar-nav mr-auto">
+				      <li class="nav-item active">
+				        <a class="nav-link" href="index.html">Home</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="elenco.html">Collezione <span class="sr-only">(current)</span></a>
+				      </li>
+				      <li class="nav-item dropdown">
+				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          Dropdown
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          <a class="dropdown-item" href="#">Action</a>
+				          <a class="dropdown-item" href="#">Another action</a>
+				          <div class="dropdown-divider"></div>
+				          <a class="dropdown-item" href="#">Something else here</a>
+				        </div>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+				      </li>
+				    </ul>
+				    <form class="form-inline my-2 my-lg-0">
+				      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				    </form>
+				  </div>
+				</nav>	
+			</nav>
+		</header>
+
+		<!--Banner Collezione-->
+		<section id="collezione">
+			<div class="container.fluid">
+				<div class="container">
+					<h2>Collezione</h2>
+					<img src="#" class="img-responsive" alt="Descrizione"/>
+				</div>
+			</div>
+		</section>
+
+		<!--Menù filtri-->
+		<section id="filtri">
+			<div class="container.fluid">
+				<div class="container">
+					<h2>Filtra la lista</h2>
+				</div>
+			</div>
+			<div class="container">
+				<ul class="nav nav-pills flex-column flex-sm-row">
+					<li class="nav-item">
+				    	<a class="nav-link active" href="#">Tutto</a>
+					</li>
+					<li class="nav-item">
+				    	<a class="nav-link active" href="#">Ordine alfabetico</a>
+					</li>
+					<li class="nav-item">
+				    	<a class="nav-link active" href="#">Ordine cronologico</a>
+					</li>					
+					<!--Dropdown button-->
+					<div class="btn-group" role="group">
+					    <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Facoltà </button>
+					    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+					    	<a class="dropdown-item" href="#">Medicina e Chirurgia</a>
+					     	<a class="dropdown-item" href="#">Scienze naturali, fisiche e matematiche</a>
+					    </div>
+						<button id="btnGroupDrop2" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Ruolo </button>
+					    <div class="dropdown-menu" aria-labelledby="btnGroupDrop2">
+					     	<a class="dropdown-item" href="#">Libero docente</a>
+					     	<a class="dropdown-item" href="#">Preparatore</a>
+					     	<a class="dropdown-item" href="#">Volontario</a>
+					    </div>
+						<button id="btnGroupDrop3" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Mentore </button>
+					    <div class="dropdown-menu" aria-labelledby="btnGroupDrop3">
+					     	<a class="dropdown-item" href="#">Giovanni Berti</a>
+					     	<a class="dropdown-item" href="#">Carlo Emery</a>
+					     	<a class="dropdown-item" href="#">Fabio Frasetto</a>
+					     	<a class="dropdown-item" href="#">Alessandro Ghigi</a>
+					     	<a class="dropdown-item" href="#">Ercole Giacomini</a>
+					     	<a class="dropdown-item" href="#">Augusto Murri</a>
+					     	<a class="dropdown-item" href="#">Guido Tizzoni</a>				     	
+					    </div>
+					</div>
+				</ul>
+			</div>
+		</section>
+		
+		<!--Elenco-->
+		<section>
+			<div class="container">
+				<!--riga1-->
+			  	<div class="row">
+				  	<div class="col-md-4"> 
+				  		<!--item card 1-->
+				  		<div class="card">
+					  		<img src="#" alt="blablabla"/>
+								<div class="card-body">
+								    <h5 class="card-title">Card 1: Vita di Dante scritta dal Boccaccio etc</h5>
+								    <p class="card-text">Vita di Dante scritta dal Boccaccio, Vita Nuova di Dante, rime di diversi e altro.</p>
+								    <a href="#" class="btn btn-success">Visualizza la risorsa</a>
+								</div>
+						</div>
+					</div>
+			        <div class="col-md-4">
+			        	<!--item card 2-->
+			         	<div class="card">
+							<img src="#" alt="blablabla"/>
+							  	<div class="card-body">
+							   		<h5 class="card-title">Card 2: Cammeo di Dante di Domenico</h5>
+							    	<p class="card-text">Un cammeo di Dante blablabla.</p>
+							    	<a href="#" class="btn btn-success">Visualizza la risorsa</a>
+							  	</div>
+						</div>
+					</div>
+			         <div class="col-md-4">
+			        	 <!--item card 3-->	         
+						<div class="card">
+						  	<img src="#" alt="blablabla"/>
+						  		<div class="card-body">
+						    		<h5 class="card-title">Card 3: Vita di Dante scritta dal Boccaccio etc</h5>
+						    		<p class="card-text">Vita di Dante scritta dal Boccaccio, Vita Nuova di Dante, rime di diversi e altro.</p>
+						    		<a href="#" class="btn btn-success">Visualizza la risorsa</a>
+						 		</div>
+						</div>
+					</div>
+				</div>
+				<!--riga2-->
+			  	<div class="row">
+				  	<div class="col-md-4"> 
+				  		<!--item card 4-->
+				  		<div class="card">
+					  		<img src="#" alt="blablabla"/>
+								<div class="card-body">
+								    <h5 class="card-title">Card 1: Vita di Dante scritta dal Boccaccio etc</h5>
+								    <p class="card-text">Vita di Dante scritta dal Boccaccio, Vita Nuova di Dante, rime di diversi e altro.</p>
+								    <a href="#" class="btn btn-success">Visualizza la risorsa</a>
+								</div>
+						</div>
+					</div>
+			        <div class="col-md-4">
+			        	<!--item card 5-->
+			         	<div class="card">
+							<img src="#" alt="blablabla"/>
+							  	<div class="card-body">
+							   		<h5 class="card-title">Card 2: Cammeo di Dante di Domenico</h5>
+							    	<p class="card-text">Un cammeo di Dante blablabla.</p>
+							    	<a href="#" class="btn btn-success">Visualizza la risorsa</a>
+							  	</div>
+						</div>
+					</div>
+			         <div class="col-md-4">
+			        	 <!--item card 6-->	         
+						<div class="card">
+						  	<img src="#" alt="blablabla"/>
+						  		<div class="card-body">
+						    		<h5 class="card-title">Card 3: Vita di Dante scritta dal Boccaccio etc</h5>
+						    		<p class="card-text">Vita di Dante scritta dal Boccaccio, Vita Nuova di Dante, rime di diversi e altro.</p>
+						    		<a href="#" class="btn btn-success">Visualizza la risorsa</a>
+						 		</div>
+						</div>
+					</div>
+				</div>
+				<!--riga3-->
+			  	<div class="row">
+				  	<div class="col-md-4"> 
+				  		<!--item card 7-->
+				  		<div class="card">
+					  		<img src="#" alt="blablabla"/>
+								<div class="card-body">
+								    <h5 class="card-title">Card 1: Vita di Dante scritta dal Boccaccio etc</h5>
+								    <p class="card-text">Vita di Dante scritta dal Boccaccio, Vita Nuova di Dante, rime di diversi e altro.</p>
+								    <a href="#" class="btn btn-success">Visualizza la risorsa</a>
+								</div>
+						</div>
+					</div>
+			        <div class="col-md-4">
+			        	<!--item card 8-->
+			         	<div class="card">
+							<img src="#" alt="blablabla"/>
+							  	<div class="card-body">
+							   		<h5 class="card-title">Card 2: Cammeo di Dante di Domenico</h5>
+							    	<p class="card-text">Un cammeo di Dante blablabla.</p>
+							    	<a href="#" class="btn btn-success">Visualizza la risorsa</a>
+							  	</div>
+						</div>
+					</div>
+			         <div class="col-md-4">
+			        	 <!--item card 9-->	         
+						<div class="card">
+						  	<img src="#" alt="blablabla"/>
+						  		<div class="card-body">
+						    		<h5 class="card-title">Card 3: Vita di Dante scritta dal Boccaccio etc</h5>
+						    		<p class="card-text">Vita di Dante scritta dal Boccaccio, Vita Nuova di Dante, rime di diversi e altro.</p>
+						    		<a href="#" class="btn btn-success">Visualizza la risorsa</a>
+						 		</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<!--Pagination-->
+		<section id="pagination">
+			<nav aria-label="Page navigation example">
+			  <ul class="pagination justify-content-center">
+			    <li class="page-item">
+			      <a class="page-link" href="#" aria-label="Previous">
+			        <span aria-hidden="true">&laquo;</span>
+			      </a>
+			    </li>
+			    <li class="page-item"><a class="page-link" href="#">1</a></li>
+			    <li class="page-item"><a class="page-link" href="#">2</a></li>
+			    <li class="page-item"><a class="page-link" href="#">3</a></li>
+			    <li class="page-item">
+			      <a class="page-link" href="#" aria-label="Next">
+			        <span aria-hidden="true">&raquo;</span>
+			      </a>
+			    </li>
+			  </ul>
+			</nav>
+		</section>
+
+
+
+			<footer>
+				<div class="container-fluid">
+					<div class="col-md-12">
+			            <h3>Aggiungere contenuto</h3>
+			        </div>
+			        <div class="row">
+						<div class="col-md-12">
+			            	<p>&copy; Debora Mazza, Esame Digital Humanities e Patrimonio Culturale (LM), 2021</p>
+			            </div>
+					</div>
+				</div>
+			</footer>
+
+		<!--Libreria JS JQuery per Bootstrap altrimenti non va-->
+ 		<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        	integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+		<!--Bootstrap JS-->
+		<script src="bootstrap/js/bootstrap.bundle.min.js"></script>	
+		
+	</body>
+
+</html>
