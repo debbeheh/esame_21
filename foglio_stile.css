@@ -6,11 +6,11 @@ h1, h2, h3, h4, h5, h6, p, a {
 	line-height: 1.5;
 }
 
-/*bottoni*/
-.btn {
-	margin: 5px;
+/*aside*/
+aside  {
+	position: absolute;
+	margin left: 120px;
 }
-
 
 /*footer*/		
 footer {
@@ -21,11 +21,15 @@ footer {
 	height: 120px;
 }		
 
+/*bottoni*/
+.btn {
+	margin: 5px;
+}
+
 
 /*INDEX*/
 
 /*Carousel*/
-
 .carousel-item img{
 
 	object-fit:cover;
@@ -64,13 +68,33 @@ footer {
  	padding-bottom: 10px;
  }
 
-/*Ultime News-Cards*/
-#cards_home {;
+/*Cards*/
+#cards_home {
 	margin-top: 35px;
 	margin-bottom: 10px;
 }
 
-.card {;
-	margin-bottom: 20px;
+.card {
+	margin-top: 10px;
+	margin-bottom: 30px;
 	box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
+
+/*ELENCO*/
+
+/*Banner collezione*/
+#catalogo {
+	text-align: center;
+}
+
+
+/*filtri*/
+#filtri {
+
+}
+
+/*pagination*/
+#pagination {
+	
+}
+
