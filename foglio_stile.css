@@ -14,11 +14,11 @@ aside  {
 
 /*footer*/		
 footer {
-	padding-top: 20px;
+	padding-top: 30px;
 	background-color: #2F3137;
 	color: white;
 	text-align: center;
-	height: 120px;
+	height: 90px;
 }		
 
 /*bottoni*/
@@ -88,9 +88,13 @@ footer {
 }
 
 
+#ordinamento {
+
+}
+
 /*filtri*/
 #filtri {
-
+	
 }
 
 /*pagination*/
