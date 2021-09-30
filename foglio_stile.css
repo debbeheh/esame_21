@@ -1,13 +1,7 @@
 /*CSS GENERICO VALIDO PER TUTTE LE PAGINE*/
 
 /*Font*/
-h1, h2, h3, h4{
-	font-family: ;
-	line-height: 1.5;
-}
-
-h5, h6, p, a  {
-	font-family: ;
+h1, h2, h3, h4, h5, h6, p, a {
 	line-height: 1.5;
 }
 
@@ -29,6 +23,18 @@ footer {
 /*bottoni*/
 .btn {
 	margin: 5px;
+}
+
+.card {
+	margin-top: 10px;
+	margin-bottom: 30px;
+	box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card img {
+	max-height:400px;
+	max-width: auto;
+	object-fit: scale-down;
 }
 
 
@@ -79,16 +85,6 @@ footer {
 	margin-bottom: 10px;
 }
 
-.card {
-	margin-top: 10px;
-	margin-bottom: 30px;
-	box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.card img {
-	max-height:400px;
-	object-fit: cover;
-}
 
 /*ELENCO*/
 
