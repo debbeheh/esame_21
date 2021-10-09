@@ -22,7 +22,6 @@
 
 		<header>
 			<h1>TITOLO</h1>
-
 			<!--navbar-->
 			<nav>
 				<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -75,238 +74,295 @@
 			</div>
 		</section>
 
-
-		<!--Menù ordinamento a sx-->
-		<section id="ordinamento">
-			<div class="container-fluid">
-				<aside>
-					<h5>Ordinamento</h5>
-					<div class="btn-toolbar" role="toolbar">
-						<div class="btn-group-vertical">
-							<a class="btn btn-secondary" href="elenco.html" role="button">Tutto</a>
-							<a class="btn btn-secondary" href="#" role="button">Ordine alfabetico</a>
-							<a class="btn btn-secondary" href="#" role="button">Ordine cronologico</a>
-							<a class="btn btn-secondary" href="#" role="button">Più popolari</a>
-							<a class="btn btn-secondary" href="#" role="button">BOH</a>
+		<main>
+			<!--Menù ordinamento a sx-->
+			<section id="ordinamento">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-2 col-sm-2 col-xs-12 mt-4">
+							<aside>
+								<h5>Ordinamento</h5>
+								<div class="btn-toolbar" role="toolbar">
+									<div class="btn-group-vertical">
+										<a class="btn btn-secondary" href="elenco.html" role="button">Più popolari</a>
+										<a class="btn btn-secondary" href="#" role="button">Autore (A-Z)</a>
+										<a class="btn btn-secondary" href="#" role="button">Titolo (A-Z)</a>
+										<a class="btn btn-secondary" href="#" role="button">Ordine cronologico (1861-1946)</a>
+									</div>
+								</div>
+							</aside>
 						</div>
 					</div>
-				</aside>
-			</div>
-		</section>
-
-		<!--Menù filtri-->
-		<section id="filtri">
-			<div class="container">
-				<!--Bottoni Dropdown-->
-				<h5><span>Filtra per</span></h5>
-				<div class="bottoni_dropdown d-flex justify-content-end">
-					<div class="btn-group">
-						<button id="btnGroupDrop1" type="button" class="btn btn-outline-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ruolo</button>
-						<div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-						    <a class="dropdown-item" href="#">Professore ordinario</a>
-						    <a class="dropdown-item" href="#">Libero docente</a>
-						    <a class="dropdown-item" href="#">Tecnico</a>
-						    <a class="dropdown-item" href="#">Aiuto</a>
-						    <a class="dropdown-item" href="#">Volontario</a>
-						</div>
-					</div>
-					<div class="btn-group">
-						<button id="btnGroupDrop2" type="button" class="btn btn-outline-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Periodico</button>
-						<div class="dropdown-menu" aria-labelledby="btnGroupDrop2">
-						    <a class="dropdown-item" href="#">Bullettino delle Scienze Mediche</a>
-						    <a class="dropdown-item" href="#">Gazzetta degli Ospitali</a>
-						    <a class="dropdown-item" href="#">Monitore Zoologico Italiano</a>
-						    <a class="dropdown-item" href="#">Riforma Medica</a>
-						    <a class="dropdown-item" href="#">L'Università Italiana</a>
-
-						</div>
-					</div>
-					<div class="btn-group">    	
-						<button id="btnGroupDrop3" type="button" class="btn btn-outline-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Date</button>
-						<div class="dropdown-menu" aria-labelledby="btnGroupDrop3">
-							<a class="dropdown-item" href="#">1890</a>
-							<a class="dropdown-item" href="#">1894</a>
-							<a class="dropdown-item" href="#">1895</a>
-							<a class="dropdown-item" href="#">1907</a>
-							<a class="dropdown-item" href="#">1910</a>
-							<a class="dropdown-item" href="#">1914</a>
-							<a class="dropdown-item" href="#">1915</a>
-							<a class="dropdown-item" href="#">1916</a>
-							<a class="dropdown-item" href="#">1917</a>
-							<a class="dropdown-item" href="#">1918</a>
-							<a class="dropdown-item" href="#">1920</a>		
-						</div>				    	
-					</div>
-				</div>	
-				<!--Nav tab con icon font html prese da Bs-->
-				<div>
-					<ul class="nav nav-tabs">
-					  	<li class="nav-item">
-					   		<a class="nav-link active" href="#">Tutto</a>
-					  	</li>
-					  	<li class="nav-item">
-					   		<a class="nav-link" href="#"><i class="bi bi-file-image"></i> Immagini</a>
-					 	</li>
-					 	<li class="nav-item">
-					    	<a class="nav-link" href="#"><i class="bi bi-file-earmark-text"></i> Pubblicazioni</a>
-					  	</li>
-					  	<li class="nav-item">
-					    	<a class="nav-link" href="#"><i class="bi bi-folder"></i> Documenti</a>
-					  	</li>
-					  	<li class="nav-item">
-					   		<a class="nav-link" href="#"><i class="bi bi-envelope"></i> Carteggi</a>
-					 	</li>
-					</ul>
 				</div>
-			</div>
-		</section>
-		
-		<!--Elenco-->
-		<section id="elenco">
-			<div class="container">
-				<!--riga1-->
-			  	<div class="row">
-				  	<div class="col-md-4"> 
-				  		<!--item card 1-->
-				  		<div class="card">
-					  		<img src="immg/tesi_cattani.jpg" alt="Tesi di laurea di Giuseppina Cattani"/>
+			</section>
+
+			<!--Menù filtri-->
+			<section id="filtri">
+				<div class="container">
+					<div class="row">
+						<h5><span>Filtra per</span></h5>
+					</div>
+					<div class="row">		
+						<!--Nav tab con icon font html prese da Bs-->
+						<div>
+							<ul class="nav nav-tabs">
+							  	<li class="nav-item">
+							   		<a class="nav-link active" href="#">Tutto</a>
+							  	</li>
+							  	<li class="nav-item">
+							   		<a class="nav-link" href="#"><i class="bi bi-file-image"></i> Immagini</a>
+							 	</li>
+							 	<li class="nav-item">
+							    	<a class="nav-link" href="#"><i class="bi bi-file-earmark-text"></i> Pubblicazioni</a>
+							  	</li>
+							  	<li class="nav-item">
+							    	<a class="nav-link" href="#"><i class="bi bi-folder"></i> Documenti</a>
+							  	</li>
+							  	<li class="nav-item">
+							   		<a class="nav-link" href="#"><i class="bi bi-envelope"></i> Carteggi</a>
+							 	</li>
+							</ul>
+						</div>
+						<!--Bottoni Dropdown-->
+						<div class="btn-group">
+							<button id="btnGroupDrop1" type="button" class="btn btn-outline-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ruolo</button>
+							<div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+								<a class="dropdown-item" href="#">Professore ordinario</a>
+								<a class="dropdown-item" href="#">Libero docente</a>
+								<a class="dropdown-item" href="#">Tecnico</a>
+								<a class="dropdown-item" href="#">Aiuto</a>
+								 <a class="dropdown-item" href="#">Volontario</a>
+							</div>
+						</div>
+						<div class="btn-group">
+							<button id="btnGroupDrop2" type="button" class="btn btn-outline-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Periodico</button>
+							<div class="dropdown-menu" aria-labelledby="btnGroupDrop2">
+								<a class="dropdown-item" href="#">Atti della R. Accademia del Lincei</a>
+								<a class="dropdown-item" href="#">Bullettino delle Scienze Mediche</a>
+								<a class="dropdown-item" href="#">Gazzetta degli Ospitali</a>
+								<a class="dropdown-item" href="#">Monitore Zoologico Italiano</a>
+								<a class="dropdown-item" href="#">Riforma Medica</a>
+								<a class="dropdown-item" href="#">L'Università Italiana</a>
+							</div>
+						</div>
+						<div class="btn-group">    	
+							<button id="btnGroupDrop3" type="button" class="btn btn-outline-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Date</button>
+							<div class="dropdown-menu" aria-labelledby="btnGroupDrop3">
+								<a class="dropdown-item" href="#">1883</a>
+								<a class="dropdown-item" href="#">1894</a>
+								<a class="dropdown-item" href="#">1895</a>
+								<a class="dropdown-item" href="#">1907</a>
+								<a class="dropdown-item" href="#">1910</a>
+								<a class="dropdown-item" href="#">1915</a>
+								<a class="dropdown-item" href="#">1916</a>
+								<a class="dropdown-item" href="#">1914</a>
+								<a class="dropdown-item" href="#">1938</a>		
+							</div>				    	
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<!--Elenco-->
+			<section id="elenco">
+				<div class="container">
+					<!--riga1-->
+				  	<div class="row">
+					  	<div class="col-md-4"> 
+					  		<!--item card 1-->
+					  		<div class="card">
+					  			<img src="immg/tesi_cattani2.jpg" alt="Tesi di laurea di Giuseppina Cattani"/>
+					  			<div class="card-img-overlay">
+					  				<span class=icone> <i class="bi bi-file-earmark-text"></i></span>
+					  			</div>
 								<div class="card-body">
-								    <h5 class="card-title">Ricerche intorno alla normale tessitura ed alle alterazioni sperimentali dei corpuscoli pacinici degli uccelli (corpuscoli dell'Herbst)</h5>
+									<h6 class="card-title">Ricerche intorno alla normale tessitura ed alle alterazioni sperimentali dei corpuscoli pacinici degli uccelli (corpuscoli dell'Herbst)</h6>
+									<hr class="my-6">
+									<p class="card-text">Autore: Giuseppina Cattani</p>
+									<p class="card-text">Collezione: Medichesse</p>
+									<p class="card-text">Data: 1884</p>
+									<p class="card-text">Soggetto: Corpuscoli pacinici;  Giuseppina Cattani</p>
+									<a href="item.html" class="btn btn-success">Visualizza la risorsa</a>
+								</div>
+							</div>
+						</div>
+				        <div class="col-md-4">
+				        	<!--item card 2-->
+				         	<div class="card">
+								<img src="immg/norsa_gurrieri.jpg" alt="Istantanee di Elisa Norsa e Raffaele Gurrieri a Salsomaggiore"/>
+								<div class="card-img-overlay">
+					  				<span class=icone> <i class="bi bi-image"></i></span>
+					  			</div>
+								<div class="card-body">
+								   	<h6 class="card-title">Elisa Norsa e Raffaele Gurrieri a Salsomaggiore</h6>
 								    <hr class="my-6">
-								    <p class="card-text">Autore: Giuseppina Cattani</p>
-								    <p class="card-text">Tipologia: <i class="bi bi-file-earmark-text"></i> Pubblicazione</p>
-								    <p class="card-text">Data: 1883</p>
-								    <p class="card-text">Periodico: Gazzetta degli Ospitali</p>
+									<p class="card-text">Creatore: Raffaele Gurrieri</p>
+									<p class="card-text">Collezione: Scienziate</p>
+									<p class="card-text">Data: 1939</p>
+									<p class="card-text">Soggetto: Elisa Norsa; Raffaele Gurrieri</p>
 								    <a href="#" class="btn btn-success">Visualizza la risorsa</a>
 								</div>
+							</div>
 						</div>
-					</div>
-			        <div class="col-md-4">
-			        	<!--item card 2-->
-			         	<div class="card">
-							<img src="immg/norsa_gurrieri.jpg" alt="Istantanee di Elisa Norsa e Raffaele Gurrieri a Salsomaggiore"/>
+				         <div class="col-md-4">
+				        	<!--item card 3-->	         
+							<div class="card">
+							  	<img src="immg/marchetti.jpg" alt="Voti esami e di laurea di Laura Marchetti"/>
+							  	<div class="card-img-overlay">
+					  				<span class=icone> <i class="bi bi bi-folder"></i></span>
+					  			</div>
 							  	<div class="card-body">
-							   		<h5 class="card-title">Elisa Norsa e Raffaele Gurrieri a Salsomaggiore</h5>
+							    	<h6 class="card-title">Certificato di laurea di Laura Marchetti</h6>
 							    	<hr class="my-6">
-								    <p class="card-text">Creatore: Raffaele Gurrieri</p>
-								    <p class="card-text">Tipologia: <i class="bi bi-file-image"></i> Immagine</p>
-								    <p class="card-text">Data: 1939</p>
-								    <p class="card-text">Soggetto: Elisa Norsa ; Raffaele Gurrieri</p>
-							    	<a href="#" class="btn btn-success">Visualizza la risorsa</a>
-							  	</div>
+									<p class="card-text">Autore: Segreteria della R. Università di Bologna</p>
+									<p class="card-text">Collezione: Medichesse</p>
+									<p class="card-text">Tipologia: Documento</p>
+									<p class="card-text">Data: 1916</p>
+							    	<a href="#" class="btn btn-success"><i class="bi bi-folder"></i> Visualizza la risorsa</a>
+							 	</div>
+							</div>
 						</div>
 					</div>
-			         <div class="col-md-4">
-			        	<!--item card 3-->	         
-						<div class="card">
-						  	<img src="immg/marchetti.jpg" alt="Voti esami e di laurea di Laura Marchetti"/>
-						  		<div class="card-body">
-						    		<h5 class="card-title">Certificato di laurea di Laura Marchetti</h5>
-						    		<p class="card-text">Certificato di laurea unversitaria rilasciato dalla segreteria universitaria comprensivo dei voti degli esami.</p>
-						    		<a href="#" class="btn btn-success"><i class="bi bi-folder"></i> Visualizza la risorsa</a>
-						 		</div>
-						</div>
-					</div>
-				</div>
-				<!--riga2-->
-			  	<div class="row">
-				  	<div class="col-md-4"> 
-				  		<!--item card 4-->
-				  		<div class="card">
-					  		<img src="immg/cattani_codronchi_carteggio.jpg" alt="Corrispondenza tra Giuseppina Cattani e Giovanni Codronchi Jr."/>
+					<!--riga2-->
+				  	<div class="row">
+					  	<div class="col-md-4"> 
+					  		<!--item card 4-->
+					  		<div class="card">
+						  		<img src="immg/cattani_codronchi_carteggio.jpg" alt="Corrispondenza tra Giuseppina Cattani e Giovanni Codronchi Jr."/>
+						  		<div class="card-img-overlay">
+					  				<span class=icone> <i class="bi bi-envelope"></i></span>
+					  			</div>
 								<div class="card-body">
-								    <h5 class="card-title">Corrispondenza tra Giuseppina Cattani e Giovanni Codronchi Jr.</h5>
-								    <p class="card-text">Scambio di lettere tra Giuseppina appena diplomata al liceo e il Conte Giovanni Codronchi Jr.</p>
-								    <a href="#" class="btn btn-success"><i class="bi bi-envelope"></i> Visualizza la risorsa</a>
+									<h6 class="card-title">Corrispondenza tra Giuseppina Cattani e Giovanni Codronchi Jr.</h6>
+									<hr class="my-6">
+									<p class="card-text">Autore: Giuseppina Cattani</p>
+									<p class="card-text">Collezione: Medichesse</p>
+									<p class="card-text">Tipologia:Carteggio</p>
+									<p class="card-text">Data: 1883</p>
+									<a href="#" class="btn btn-success">Visualizza la risorsa</a>
 								</div>
+							</div>
 						</div>
-					</div>
-			        <div class="col-md-4">
-			        	<!--item card 5-->
-			         	<div class="card">
-							<img src="#" alt="blablabla"/>
-							  	<div class="card-body">
-							   		<h5 class="card-title">Card 2: Cammeo di Dante di Domenico</h5>
-							    	<p class="card-text">Un cammeo di Dante blablabla.</p>
-							    	<a href="#" class="btn btn-success">Visualizza la risorsa</a>
-							  	</div>
-						</div>
-					</div>
-			         <div class="col-md-4">
-			        	 <!--item card 6-->	         
-						<div class="card">
-						  	<img src="immg/cattani_foto.jpg" alt="La dott.ssa Giuseppina Cattani"/>
-						  		<div class="card-body">
-						    		<h5 class="card-title">La dott.ssa Giuseppina Cattani</h5>
-						    		<p class="card-text">Ricordo della dott.ssa pubblicato sul periodico “Bullettino delle scienze mediche” da Raffaele Gurrieri.</p>
-						    		<a href="#" class="btn btn-success"><i class="bi bi-file-image"></i> Visualizza la risorsa</a>
-						 		</div>
-						</div>
-					</div>
-				</div>
-				<!--riga3-->
-			  	<div class="row">
-				  	<div class="col-md-4"> 
-				  		<!--item card 7-->
-				  		<div class="card">
-					  		<img src="#" alt="blablabla"/>
+				        <div class="col-md-4">
+				        	<!--item card 5-->
+				         	<div class="card">
+								<img src="immg/giacomini.jpeg" alt="Ercole Giacomini"/>
+								<div class="card-img-overlay">
+					  				<span class=icone> <i class="bi bi-image"></i></span>
+					  			</div>
 								<div class="card-body">
-								    <h5 class="card-title">Card 1: Vita di Dante scritta dal Boccaccio etc</h5>
-								    <p class="card-text">Vita di Dante scritta dal Boccaccio, Vita Nuova di Dante, rime di diversi e altro.</p>
+								   	<h6 class="card-title">Ritratto di Ercole Giacomini</h6>
+								    <hr class="my-6">
+									<p class="card-text">Autore: Ignoto</p>
+									<p class="card-text">Collezione: Mentori</p>
+									<p class="card-text">Tipologia: Immagine</p>
+									<p class="card-text">Data: Ignota</p>
 								    <a href="#" class="btn btn-success">Visualizza la risorsa</a>
 								</div>
+							</div>
 						</div>
-					</div>
-			        <div class="col-md-4">
-			        	<!--item card 8-->
-			         	<div class="card">
-							<img src="#" alt="blablabla"/>
+				        <div class="col-md-4">
+				        	 <!--item card 6-->	         
+							<div class="card">
+							  	<img src="immg/cattani_foto.jpg" alt="La dott.ssa Giuseppina Cattani"/>
+							  	<div class="card-img-overlay">
+					  				<span class=icone> <i class="bi bi-file-earmark-text"></i></span>
+					  			</div>
 							  	<div class="card-body">
-							   		<h5 class="card-title">Card 2: Cammeo di Dante di Domenico</h5>
-							    	<p class="card-text">Un cammeo di Dante blablabla.</p>
-							    	<a href="#" class="btn btn-success">Visualizza la risorsa</a>
-							  	</div>
+							    	<h6 class="card-title">La dott.ssa Giuseppina Cattani</h6>
+							    	<hr class="my-6">
+									<p class="card-text">Autore: Raffaele Gurrieri</p>
+									<p class="card-text">Collezione: Medichesse</p>
+									<p class="card-text">Tipologia: Pubblicazione</p>
+									<p class="card-text">Data: 1915</p>
+							    	<a href="#" class="btn btn-success"> Visualizza la risorsa</a>
+							 	</div>
+							</div>
 						</div>
 					</div>
-			         <div class="col-md-4">
-			        	 <!--item card 9-->	         
-						<div class="card">
-						  	<img src="#" alt="blablabla"/>
-						  		<div class="card-body">
-						    		<h5 class="card-title">Card 3: Vita di Dante scritta dal Boccaccio etc</h5>
-						    		<p class="card-text">Vita di Dante scritta dal Boccaccio, Vita Nuova di Dante, rime di diversi e altro.</p>
-						    		<a href="#" class="btn btn-success">Visualizza la risorsa</a>
-						 		</div>
+					<!--riga3-->
+				  	<div class="row">
+					  	<div class="col-md-4"> 
+					  		<!--item card 7-->
+					  		<div class="card">
+							  	<img src="immg/bonfa.jpg" alt="Isabella Bonfà"/>
+							  	<div class="card-img-overlay">
+					  				<span class=icone> <i class="bi bi-image"></i></span>
+					  			</div>
+							  	<div class="card-body">
+							    	<h6 class="card-title">Isabella Bonfà</h6>
+							    	<hr class="my-6">
+									<p class="card-text">Autore: Ignoto</p>
+									<p class="card-text">Collezione: Scienziate</p>
+									<p class="card-text">Tipologia: Immagine</p>
+									<p class="card-text">Data: 1934</p>
+									<a href="#" class="btn btn-success">Visualizza la risorsa</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+				        	 <!--item card 8-->	         
+							<div class="card">
+								<img src="immg/vita_decadenza_docenza.jpg" alt="Decadenza abilitazione libera docenza di Nerina Vita"/>
+								<div class="card-img-overlay">
+					  				<span class=icone> <i class="bi bi bi-folder"></i></span>
+					  			</div>
+								<div class="card-body">
+								   	<h6 class="card-title">Decadenza della libera docenza di Nerina Vita</h6>
+								    <hr class="my-6">
+									<p class="card-text">Autore:Segreteria della R. Università di Bologna</p>
+									<p class="card-text">Collezione: Scienziate</p>
+									<p class="card-text">Tipologia: Documento </p>
+									<p class="card-text">Data: 1938</p>
+							    	<a href="#" class="btn btn-success">Visualizza la risorsa</a>
+							 	</div>
+							</div>
+						</div>
+				        <div class="col-md-4">
+				        	<!--item card 9-->
+				         	<div class="card">
+								<img src="immg/" alt=""/>
+								<div class="card-img-overlay">
+					  				<span class=icone> <i class="bi bi-file-earmark-text"></i></span>
+					  			</div>
+								<div class="card-body">
+								   	<h6 class="card-title"></h6>
+								    <hr class="my-6">
+									<p class="card-text">Autore: </p>
+									<p class="card-text">Collezione: </p>
+									<p class="card-text">Tipologia: Pubblicazione</p>
+									<p class="card-text">Data: Ignota</p>
+								    <a href="#" class="btn btn-success">Visualizza la risorsa</a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</section>
+			</section>
 
-		<!--Pagination-->
-		<section id="pagination">
-			<div class="container-fluid">
-				<nav aria-label="Page navigation example">
-				  <ul class="pagination pagination-lg justify-content-center">
-				    <li class="page-item disabled">
-				      <a class="page-link" href="#" aria-label="Previous">
-				        <span aria-hidden="true">&laquo;</span>
-				      </a>
-				    </li>
-				    <li class="page-item"><a class="page-link" href="#">1</a></li>
-				    <li class="page-item"><a class="page-link" href="#">2</a></li>
-				    <li class="page-item"><a class="page-link" href="#">3</a></li>
-				    <li class="page-item">
-				      <a class="page-link" href="#" aria-label="Next">
-				        <span aria-hidden="true">&raquo;</span>
-				      </a>
-				    </li>
-				  </ul>
-				</nav>
-			</div>
-		</section>
-
-
+			<!--Pagination-->
+			<section id="pagination">
+				<div class="container-fluid">
+					<nav aria-label="Page navigation example">
+					  <ul class="pagination pagination-lg justify-content-center">
+					    <li class="page-item disabled">
+					      <a class="page-link" href="#" aria-label="Previous">
+					        <span aria-hidden="true">&laquo;</span>
+					      </a>
+					    </li>
+					    <li class="page-item"><a class="page-link" href="#">1</a></li>
+					    <li class="page-item"><a class="page-link" href="#">2</a></li>
+					    <li class="page-item"><a class="page-link" href="#">3</a></li>
+					    <li class="page-item">
+					      <a class="page-link" href="#" aria-label="Next">
+					        <span aria-hidden="true">&raquo;</span>
+					      </a>
+					    </li>
+					  </ul>
+					</nav>
+				</div>
+			</section>
+		</main>
 
 		<footer>
 			<div class="container-fluid">
