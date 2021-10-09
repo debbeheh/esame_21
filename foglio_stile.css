@@ -5,6 +5,14 @@ h1, h2, h3, h4, h5, h6, p, a {
 	line-height: 1.5;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: Georgia;
+}
+
+ p, a {
+	font-family: Arial;
+}
+
 /*aside*/
 aside  {
 	position: absolute;
@@ -37,6 +45,20 @@ footer {
 	object-fit: scale-down;
 }
 
+.card-title {
+	font-weight: bold;
+}
+
+.card-text {
+	font-size: 14px;
+}
+
+/*icone sopra le immagini delle cards*/
+.icone {
+	font-size: 2rem;
+	color: green;
+}
+
 
 /*INDEX*/
 
@@ -46,7 +68,7 @@ footer {
 	object-fit: scale-down;
 }
 
-/*.carousel perchè è class (e vale per tutti gli elementi con questa class)*/
+/*.carousel perchè è class (e vale per tutti gli elementi con questa class); altrimenti # se id di una section*/
 .carousel-caption {
 	background-color: #2F3137;
 	border-radius: 10px;
@@ -56,7 +78,11 @@ footer {
 
 .carousel_descrizione {
 	font-style: italic;
-}	
+}
+
+.carousel-inner {
+	background-color: #e9ecef;
+}
 
  /*Il Progetto*/
 
@@ -94,11 +120,6 @@ footer {
 }
 
 
-/*filtri*/
-#filtri {
-	
-}
-
 /*elenco*/
 #elenco {
 	background-color: #2F3137;
@@ -110,3 +131,5 @@ footer {
 	padding-top: 30px;
 }
 
+
+/*ITEM*/
