@@ -13,12 +13,6 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: Arial;
 }
 
-/*aside*/
-aside  {
-	position: absolute;
-	margin left: 120px;
-}
-
 /*footer*/		
 footer {
 	padding-top: 30px;
@@ -57,8 +51,20 @@ footer {
 .icone {
 	font-size: 2rem;
 	color: green;
+	position: absolute;
+  	top: 15px;
+  	left: 25px;
 }
 
+.breadcrumb{
+	background-color: #e9ecef;
+
+}
+
+/*aside*/
+.item_correlati {
+	position: absolute;
+}
 
 /*INDEX*/
 
@@ -83,8 +89,6 @@ footer {
 .carousel-inner {
 	background-color: #e9ecef;
 }
-
- /*Il Progetto*/
 
  /*# perchè è id (quindi id univoco che vale solo per quell'elemento)*/
  #progetto {
@@ -119,13 +123,6 @@ footer {
 	text-align: center;
 }
 
-
-/*elenco*/
-#elenco {
-	background-color: #2F3137;
-}
-
-/*pagination*/
 #pagination {
 	height: 120px;
 	padding-top: 30px;
@@ -133,3 +130,9 @@ footer {
 
 
 /*ITEM*/
+table, th, td {
+	border:1px solid black;
+  	border-collapse: collapse;
+}
+
+/*PERSONA*/
