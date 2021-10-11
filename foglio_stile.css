@@ -2,7 +2,7 @@
 
 /*Font*/
 h1, h2, h3, h4, h5, h6, p, a {
-	line-height: 1.5;
+	line-height: 1.3;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -12,6 +12,21 @@ h1, h2, h3, h4, h5, h6 {
  p, a {
 	font-family: Arial;
 }
+
+/*LINK*/
+a:hover {
+	color: darkgreen;
+}
+
+a {
+	color: green;
+}
+
+/*footer link*/ /*ordine:  link - visited - hover - active altrimenti non funzia!!*/
+footer a, footer a:link, footer a:visited, footer a:hover, footer a:active {
+	color: white;
+}
+
 
 /*footer*/		
 footer {
@@ -48,23 +63,24 @@ footer {
 }
 
 /*icone sopra le immagini delle cards*/
-.icone {
-	font-size: 2rem;
-	color: green;
+span.icone {
+	font-size: 1.6rem;
+	color: white;
 	position: absolute;
   	top: 15px;
   	left: 25px;
+  	text-align: center;
+  	background-color: #343a40;
+  	width: 3rem;
+  	height: 2.6rem;
+  	border-radius: 7px;
+  	opacity: 0.8;
 }
 
 .breadcrumb{
 	background-color: #e9ecef;
-
 }
 
-/*aside*/
-.item_correlati {
-	position: absolute;
-}
 
 /*INDEX*/
 
@@ -130,9 +146,32 @@ footer {
 
 
 /*ITEM*/
+iframe {
+	height: 650px;
+	width: 550px;
+	position: relative;
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+
+#accordionExample {
+	margin-top: 30px;
+	margin-bottom: 10;
+}
+
+.descr_item {
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 40px;
+}
+
 table, th, td {
 	border:1px solid black;
   	border-collapse: collapse;
 }
 
 /*PERSONA*/
+
+
+
+
