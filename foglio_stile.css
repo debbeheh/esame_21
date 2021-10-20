@@ -132,12 +132,17 @@ span.icone {
 }
 
 
-/*ELENCO*/
+/*ELENCO E BROWSING*/
 
 /*Banner collezione*/
-#catalogo {
+#catalogo1, #catalogo2 {
 	text-align: center;
 }
+
+.jumbotron {
+  	
+  }
+
 
 #pagination {
 	height: 120px;
@@ -152,6 +157,7 @@ span.icone {
 	background-color: #28a745;
 	color:  white;
 }
+
 
 /*ITEM*/
 
