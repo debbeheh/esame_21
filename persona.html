@@ -77,17 +77,216 @@
 		</section>
 
 		<main>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-9">
+						<h3>Giuseppina Cattani</h3>
+							<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+								<div class="carousel-inner">
+								    <div class="carousel-item active">
+								       	<img src="immg/cattani.png" class="d-block w-100" alt="Giuseppina Cattani">
+								    </div>
+								</div>
+							</div>
+							<div class="card-header pt-4">
+                                <p class="text-justify"></p>
+                            </div>
+						<!--Bottoni-->
+						<div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+						  	<button type="button" class="btn btn-outline-success"><a href="immg/cattani.png" target="_blank"><i class="bi bi-download"></i> Download</a></button>
+						  	<div class="btn-group" role="group">
+						    	<button id="btnGroupDrop1" type="button" class="btn btn-outline-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="bi bi-chat-quote"></i> Esporta</button>
+						    	<div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+						      		<a class="dropdown-item" href="#">BibTex</a>
+						     		<a class="dropdown-item" href="#">EndNote</a>
+						     		<a class="dropdown-item" href="#">RefMan</a>
+						     		<a class="dropdown-item" href="#">Text</a>
+						   		</div>
+						  	</div>
+						</div>
+						<hr class="my-6">
+						<h3> Descrizione Item </h3>
+						<div class="descr_item">
+							<!--Tabella Bootstrap-->
+							<table class="table table-bordered">
+							  	<tbody>
+							    	<tr>
+									    <th scope="row">Nome e cognome</th>
+									    <td>Giuseppina Cattani</td>
+							    	</tr>
+							    	<tr>
+									    <th scope="row">Sesso</th>
+									    <td>♀ F</td>
+							   		</tr>
+							    	<tr>
+									    <th scope="row">Data di nascita</th>
+									    <td>26 maggio 1859</td>
+							   		</tr>
+							   		<tr>
+									    <th scope="row">Luogo di Nascita</th>
+										<td>Imola, Bologna, Emilia Romagna</td>
+							   		</tr>
+							   		<tr>
+									    <th scope="row">Data di morte</th>
+									    <td>9 dicembre 1914</a></td>
+							   		</tr>
+							   		<tr>
+									    <th scope="row">Luogo di morte</th>
+									    <td>Imola, Bologna, Emilia Romagna</td>
+							   		</tr>
+							   		<tr>
+									    <th scope="row">Ruolo</th>
+									    <td><button type="button" class="btn btn-success btn-sm"><i class="bi bi-tag"></i> Assistente</button>
+									    	<button type="button" class="btn btn-success btn-sm"><i class="bi bi-tag"></i> Libero docente</button> 
+									    	<button type="button" class="btn btn-success btn-sm"><i class="bi bi-tag"></i> Medico</button> 
+									    	<button type="button" class="btn btn-success btn-sm"><i class="bi bi-tag"></i> Ricercatore</button> 
+									    	<button type="button" class="btn btn-success btn-sm"><i class="bi bi-tag"></i> Dirigente di laboratorio</button>
+									    </td>
+							   		</tr>
+							   		<tr>
+									    <th scope="row">Collezioni</th>
+									    <td><a href="#">Medichesse</a></td>
+							   		</tr>
+							   		<tr>
+									    <th scope="row">Disciplina</th>
+									    <td><button type="button" class="btn btn-success btn-sm"><i class="bi bi-tag"></i> Istologia</button>
+									    	<button type="button" class="btn btn-success btn-sm"><i class="bi bi-tag"></i> Patologia Generale</button>
+									    	<button type="button" class="btn btn-success btn-sm"><i class="bi bi-tag"></i> Batteriologia</button>
+									    </td>
+							   		</tr>
+							   		<tr>
+									    <th scope="row">Codice identificativo di autorità</th>
+									    <td>
+									    	<ul>
+										    	<li><a href="https://opac.sbn.it/opacsbn/opaclib?db=solr_auth&resultForward=opac/iccu/full_auth.jsp&from=1&nentries=10&searchForm=opac/iccu/error.jsp&do_cmd=search_show_cmd&fname=none&sortquery=+BY+%40attrset+bib-1++%40attr+1%3D1003&sortlabel=Nome&saveparams=false&item:5019:VID::@frase@=CUBV037495" target="_blank">CUBV037495<sup>SBN</sup></a></li>
+										    	<li><a href="http://scienzaa2voci.unibo.it/biografie/134-cattani-giuseppina" target="_blank">134-cattani-giuseppina<sup>Scienza a 2 voci</sup></a></li>
+										    	<li><a href="http://viaf.org/viaf/90205027" target="_blank">90205027<sup>VIAF</sup></a></li>
+										    	<li><a href="https://www.wikidata.org/wiki/Q22342151" target="_blank">Q22342151<sup>Wikidata</sup></a></li>
+										    	<li><a href="http://www.worldcat.org/identities/lccn-n2020182197/" target="_blank">lccn-n2020182197<sup>WorldCat Identities</sup></a></li>
+									    	</ul>
+									    </td>
+							   		</tr>
+							 	</tbody>
+							</table>
+						</div>
 
-
-
-
-
-
-
-
-
-
+						<!--DC ESPANDIBILE-->
+						<div class="accordion" id="accordionExample">
+							<div class="card">
+							    <div class="card-header" id="headingOne">
+							      	<h3 class="mb-0">
+							        	<button class="btn btn-outline-success btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Metadati XML/DC</button>
+							      	</h3>
+							   	</div>
+							    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+							     	<div class="card-body">
+							     		<!--Tabella-->
+							     		<table>
+											<tr>
+												<td>DC.Title</td>
+											    <td>Ricerche intorno alla normale tessitura ed alle alterazioni sperimentali dei corpuscoli pacinici degli uccelli (corpuscoli dell'Herbst)</td> 
+											</tr>
+											<tr>
+											    <td>DC.Creator</td>
+											    <td>Giuseppina Cattani</td> 
+											</tr>
+											<tr>
+											    <td>DC.Subject</td>
+											    <td>Lastname</td> 
+											</tr>
+											<tr>
+											    <td>DC.Description</td>
+											    <td>Tesi di laurea</td> 
+											</tr>
+											<tr>
+											    <td>DC.Publisher</td>
+											    <td>Lastname</td> 
+											</tr>
+											<tr>
+											    <td>DC.Contributor</td>
+											    <td>Lastname</td> 
+											</tr>
+											<tr>
+											    <td>DC.Date</td>
+											    <td>Lastname</td> 
+											</tr>
+											<tr>
+											    <td>DC.Type</td>
+											    <td>Lastname</td> 
+											</tr>
+											<tr>
+											    <td>DC.Format</td>
+											    <td>Lastname</td> 
+											</tr>
+											<tr>
+											    <td>DC.Identifier</td>
+											    <td>Lastname</td> 
+											</tr>
+											<tr>
+											    <td>DC.Source</td>
+											    <td>Lastname</td> 
+											</tr>
+											<tr>
+											    <td>DC.Language</td>
+											    <td>Italiano</td> 
+											</tr>
+											<tr>
+											    <td>DC.Relation</td>
+											    <td>Inserisci dei riferimenti alle risorse collegate al sito web, possibilmente utilizzando identificazioni formali (per esempio, i codici ISBN per i libri</td> 
+											</tr>
+											<tr>
+											    <td>DC.Coverage</td>
+											    <td>Lastname</td> 
+											</tr>
+											<tr>
+											    <td>DC.Rights</td>
+											    <td>Lastname</td> 
+											</tr>
+										</table>
+							      	</div>
+							   	</div>
+							</div>
+						</div>
+					</div>
+					<!--Laterale DX-->
+					<div class="col-md-3 mt-3 pt-2">
+						<aside class="item_correlati">
+							<h3>Allieva di</h3>
+							<div class="card">
+								<span class="icone"> <i class="bi bi-person"></i></span>
+								<img src="immg/tizzoni.png" class="card-img-top" alt="Giuseppina Cattani">
+								<div class="card-body">
+								    <h6 class="card-title">Guido Tizzoni</h6>
+								    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								   	<a href="persona.html" class="btn btn-success">Incontra il Mentore</a>
+								</div>
+							</div>
+								<hr class="my-6">
+								<h3>Elementi correlati</h3>
+								<!--item1-->
+							<div class="card">
+								<span class="icone"> <i class="bi bi-file-earmark-text"></i></span>
+							  	<img src="immg/cattani_tetano.png" alt="L'immunità contro il tetano"/>
+							  	<div class="card-body">
+							    	<h6 class="card-title">L'immunità contro il tetano, studiata negli animali molto recettivi</h6>
+							    	<a href="#" class="btn btn-success">Visualizza la risorsa</a>
+							    </div>
+							</div>
+							<!--item2-->
+							<div class="card">
+								<span class="icone"> <i class="bi bi-envelope"></i></span>
+								<img src="immg/cattani_codronchi_carteggio.png" class="card-img-top" alt="Corrispondenza tra Giuseppina Cattani e Giovanni Codronchi Jr.">
+								<div class="card-body">
+									<h6 class="card-title">Corrispondenza tra Giuseppina Cattani e Giovanni Codronchi Jr.</h6>
+									<a href="#" class="btn btn-success">Visualizza la risorsa</a>
+								</div>
+							</div>
+						</aside>
+					</div>
+				</div>
+			</div>
 		</main>
+
 		
 		<footer>
 			<div class="container-fluid">
