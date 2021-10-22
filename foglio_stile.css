@@ -92,9 +92,8 @@ span.icone {
 
 /*.carousel perchè è class (e vale per tutti gli elementi con questa class); altrimenti # se id di una section*/
 .carousel-caption {
-	background-color: #2F3137;
+	background-color: rgba(49, 49, 55, 0.9); /*ultimo valore è x trasparenza*/
 	border-radius: 10px;
-	opacity: 0.9;
 	padding-bottom: 30px;
 }
 
@@ -137,12 +136,25 @@ span.icone {
 /*Banner collezione*/
 #catalogo1, #catalogo2 {
 	text-align: center;
+	color: whitesmoke;
 }
 
 .jumbotron {
-  	
-  }
+  	background-size: cover;
+ }
 
+.jumbotron div {
+	background-color: rgba(49, 49, 55, 0.7);
+	border-radius: 10px;
+	padding-bottom: 10px;
+	height: 160px;
+	width: 500px;
+}
+
+.jumbotron hr{
+  	border-top: 1px solid ghostwhite;
+  	opacity: 0.4;
+ }
 
 #pagination {
 	height: 120px;
