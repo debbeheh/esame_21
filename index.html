@@ -5,26 +5,24 @@
 		<title>Medichesse, Scienziate e Mentori alla R. Università di Bologna</title>
 		<meta charset="UTF-8"/>
 		<meta name="keywords" content="medichesse, scienziati, mentori, Regia Università di Bologna, 1861-1946">
-		<meta name="description" content="INSERIRE DESCRIZIONE"/>
+		<meta name="description" content="Homepage. Il progetto si occupa di preservare, disseminare e raccontare la vita, la carriera accademica e le produzioni scientifiche di tutte le donne che tra il 1861 e il 1946 hanno prestato servizio come Medichesse e Scienziate alla Facoltà di Medicina e Chirugia e di Scienze Matematiche, Fisiche e Naturali presso l'antico Studio bolognese, e dei loro Mentori."/>
 		<meta name="author" content="Debora Mazza"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
 		<!-- meta XML DublinCore -->
-		<meta name="DC.Title" content="Inserisci il titolo del tuo sito web">
+		<meta name="DC.Title" content="Medichesse, Scienziate e Mentori alla R. Università di Bologna">
 		<meta name="DC.Creator" content="Debora Mazza">
 		<meta name="DC.Subject" content="Medichesse, scienziate e mentori alla Regia Università di Bologna (1861-1946)">
-		<meta name="DC.Description" content="Inserisci una breve descrizione del tuo sito web">
+		<meta name="DC.Description" content="Il progetto si occupa di preservare, disseminare e raccontare la vita, la carriera accademica e le produzioni scientifiche di tutte le donne che tra il 1861 e il 1946 hanno prestato servizio come Medichesse e Scienziate alla Facoltà di Medicina e Chirugia e di Scienze Matematiche, Fisiche e Naturali presso l'antico Studio bolognese, e dei loro Mentori.">
 		<meta name="DC.Publisher" content="GitHub">
 		<meta name="DC.Contributor" content="Debora Mazza">
 		<meta name="DC.Date" content="Agosto-Ottobre 2021">
 		<meta name="DC.Type" content="Sito web">
 		<meta name="DC.Format" content="HTML/CSS/JS">
-		<link rel="DC.Identifier" href="https://www.nomedelsitoweb.github.io">
-		<meta name="DC.Source" content="Inserisci le risorse utilizzate per la realizzazione del tuo sito web">
+		<link rel="DC.Identifier" href="https://debbeheh.github.io/esame_21/">
+		<meta name="DC.Source" content="Archivio Storico Università di Bologna, Biblioteca Comunale dell'Archiginnasio, Archivio Storico Comunale di Imola, Google Books">
 		<meta name="DC.Language" content="it">
-		<meta name="DC.Relation" content="Inserisci dei riferimenti alle risorse collegate al sito web, possibilmente utilizzando identificazioni formali (per esempio, i codici ISBN per i libri)">
-		<link rel="DC.Coverage" href="Inserisci una localizzazione per il tuo sito web, possibilmente utilizzando un vocabolario controllato (per esempio, http://www.getty.edu/research/tools/vocabularies/tgn/)">
-		<meta name="DC.Rights" content="Inserisci il tipo di licenza con cui intendi proteggere il tuo sito web (per esempio, fai riferimento a una delle licenze Creative Commons: https://creativecommons.org/share-your-work/)">
+		<meta name="DC.Rights" content="Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) https://creativecommons.org/licenses/by-nc-sa/4.0/">
 
 		<!--Bootstrap CSS-->
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
@@ -38,11 +36,10 @@
 	<body>
 
 		<header>
-			<h2>Medichesse, Scienziate e Mentori alla R. Università di Bologna</h2>
 			<!--navbar-->
 			<nav>
 				<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-				  <a class="navbar-brand" href="#">Titolo?</a>
+				  <a class="navbar-brand" href="#"><p class="pt-2">Medichesse, Scienziate e Mentori <br> alla R. Università di Bologna <br><span id="data">(1861-1946)</span><p></a>
 				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				    <span class="navbar-toggler-icon"></span>
 				  </button>
@@ -63,8 +60,12 @@
 				          <a class="dropdown-item" href="#">Mentori</a>
 				        </div>
 				      </li>
-				      <li class="nav-item">
-				        <a class="nav-link" href="#">Chi siamo</a>
+ 					  <li class="nav-item dropdown">
+				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Progetto</a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          <a class="dropdown-item" href="#">Chi siamo</a>
+				          <a class="dropdown-item" href="#">Guida alla navigazione</a>
+				        </div>
 				      </li>
 				    </ul>
 				    <form class="form-inline my-2 my-lg-0">
@@ -84,9 +85,19 @@
 				    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
 				    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
 				    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+				    <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
 				  </ol>
 				  <div class="carousel-inner">
 				    <div class="carousel-item active">
+				      <img src="immg/carousel/cover.jpg" class="d-block w-100" alt="Medichesse, Scienziate e Mentori alla R. Università di Bologna (1861-1946)"> <!--from Gettyimages http://www.gettyimages.it/detail/1219148715-->
+				      <div class="carousel-caption d-block">
+				        <h5>Medichesse, Scienziate e Mentori alla R. Università di Bologna (1861-1946)</h5>
+				        <p><span class="carousel_descrizione"> Il Progetto è nato con l'obiettivo di preservare, conservare e disseminare tutto ciò che riguarda la vita, la carriera accademica e le produzioni scientifiche di tutte le donne e dei mentori che hanno prestato servizio nelle Facoltà scientifiche.</p>
+				        <a class="btn btn-success" href="item.html" role="button">Scopri di più</a>
+				        <a class="btn btn-secondary" href="persona.html" role="button">Guida alla navigazione</a>
+				      </div>
+				    </div>
+				  	<div class="carousel-item">
 				      <img src="immg/carousel/carousel_tesi_cattani.jpg" class="d-block w-100" alt="Tesi di laurea di Giuseppina Cattani">
 				      <div class="carousel-caption d-block">
 				        <h5>Tesi di laurea di Giuseppina Cattani</h5>
@@ -130,10 +141,10 @@
 				<div class="container-fluid">
 					<div class="container">
 						<h2> Il Progetto</h2>
-						<img src="immg/unibo.jpg" class="img-responsive" alt="R. Biblioteca dell'Università di Bologna, Sala Mezzofanti"/> <!--Immagine da Wikipedia-->
-						<p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lacus lectus, scelerisque ut justo nec, sollicitudin auctor diam. Quisque feugiat sem ut ante mollis, ac consectetur justo tristique. Donec egestas ex id felis vehicula tincidunt. Suspendisse risus ipsum, fringilla sit amet dolor at, volutpat vehicula odio. Etiam ornare accumsan mauris, nec interdum purus scelerisque id. Mauris felis ipsum, laoreet id malesuada sed, condimentum non dui. Aenean aliquam sagittis felis, vel hendrerit dolor elementum rhoncus. Quisque cursus ornare eros, quis lobortis ipsum sodales eget. Mauris id mi laoreet, blandit arcu vel, mollis nisl. Praesent ultricies, magna vitae congue venenatis, turpis ex bibendum ex, sed porttitor odio ante quis velit. Cras urna ex, tristique eget euismod et, volutpat nec odio. Fusce congue velit eu dignissim mollis. Etiam ac semper risus.</p>
-						<p>Phasellus euismod dui vitae nibh semper consectetur. Ut bibendum faucibus lorem, sed interdum purus convallis ac. In lorem purus, bibendum vel vehicula ac, luctus vitae felis. Nullam id ligula arcu. Nunc placerat tortor ut orci vehicula iaculis. Integer facilisis posuere justo, at vehicula nisi fringilla in. Sed id augue in augue vehicula auctor. Vivamus efficitur, magna eu pretium porttitor, metus nibh elementum velit, sed luctus ligula nisl non neque. </p>
-						<a class="btn btn-success" href="#" role="button">Scopri di più</a>
+						<img src="immg/unibo.jpg" alt="R. Biblioteca dell'Università di Bologna, Sala Mezzofanti"/> <!--Immagine da Wikipedia-->
+						<p class="mt-1"> <p>Il progetto <i>Medichesse, Scienziate e Mentori alla R. Università di Bologna (1861-1946)</i> è nato con l'obiettivo di preservare, conservare e disseminare tutto ciò che riguarda la vita, la carriera accademica e le produzioni scientifiche di tutte le donne che tra il 1861 e il 1946 hanno prestato servizio come docenti, assistenti, tecnici e volontarie nelle Facoltà di Medicina e Chirurgia e di Scienze Matematiche, Fisiche e Naturali presso l'antico Studio bolognese, inclusi i loro Mentori.</p>
+						<p>Il Catalogo raccoglie quattro tipologie di materiali (immagini, pubblicazioni scientifiche, documenti amministrativi e carteggi) ed è navigabile attraverso tre Collezioni: Medichesse, Scienziate e Mentori.</p>
+						<a class="btn btn-success mt-2" href="#" role="button">Scopri di più</a>
 					</div>
 				</div>
 			</section>
@@ -150,7 +161,8 @@
 							<div class="card">
 							  <div class="card-body">
 							    <h5 class="card-title">Medichesse</h5>
-							    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+							    <h6 class="card-subtitle mb-2 text-muted">Le donne della Facoltà di Medicina e Chirugia</h6>
+							    <hr class="my-6">
 							    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lacus lectus, scelerisque ut justo nec, sollicitudin auctor diam. Quisque feugiat sem ut ante mollis, ac consectetur justo tristique. Donec egestas ex id felis vehicula tincidunt.</p>
 							    <a class="btn btn-success" href="browsing.html" role="button">Leggi di più</a>
 							  </div>
@@ -162,7 +174,8 @@
 							<div class="card">
 							  <div class="card-body">
 							    <h5 class="card-title">Scienziate</h5>
-							    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+							    <h6 class="card-subtitle mb-2 text-muted">Le donne della Facoltà Scienze Matematiche, Fisiche e Naturali</h6>
+							    <hr class="my-6">
 							    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lacus lectus, scelerisque ut justo nec, sollicitudin auctor diam. Quisque feugiat sem ut ante mollis, ac consectetur justo tristique. Donec egestas ex id felis vehicula tincidunt.</p>
 							    <a class="btn btn-success" href="#" role="button">Leggi di più</a>
 							  </div>
@@ -174,7 +187,8 @@
 							<div class="card">
 							  <div class="card-body">
 							    <h5 class="card-title">Mentori</h5>
-							    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+							    <h6 class="card-subtitle mb-2 text-muted">I loro professori, colleghi e collaboratori</h6>
+							    <hr class="my-6">
 							    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lacus lectus, scelerisque ut justo nec, sollicitudin auctor diam. Quisque feugiat sem ut ante mollis, ac consectetur justo tristique. Donec egestas ex id felis vehicula tincidunt.</p>
 							    <a class="btn btn-success" href="#" role="button">Leggi di più</a>
 							  </div>
@@ -186,8 +200,9 @@
 		</main>
 
 		<footer>
-			<div class="container-fluid">
-				<p>&copy; <a href="mailto:debora.mazza@studio.unibo.it">Debora Mazza</a>, <a href="https://www.unibo.it/it/didattica/insegnamenti?codiceMateria=84211&annoAccademico=2020&codiceCorso=8845&single=True&search=True">Esame Digital Humanities e Patrimonio Culturale (LM)</a>, 2021</p>
+			<div class="container-fluid pb-1">
+				<p class="pb-2">&copy; <a href="mailto:debora.mazza@studio.unibo.it">Debora Mazza</a> &emsp;|&emsp; Esame Digital Humanities e Patrimonio Culturale (LM), 2021 &emsp;|&emsp; <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a> 
+				</p>	
 			</div>
 		</footer>
 

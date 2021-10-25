@@ -13,6 +13,22 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: Arial;
 }
 
+/*HEADER*/
+header {
+	background-color: #343a40;
+}
+
+/*NAV*/
+.navbar-brand p {
+	font-family: Georgia;
+	font-size: 18px;
+}
+
+#data {
+	font-size: 14px;
+}
+
+
 /*LINK*/
 a:hover {
 	color: darkgreen;
@@ -23,18 +39,20 @@ a {
 }
 
 /*footer link*/ /*ordine:  link - visited - hover - active altrimenti non funzia!!*/
-footer a, footer a:link, footer a:visited, footer a:hover, footer a:active {
+footer a, footer a:link, footer a:visited, footer a:active {
 	color: white;
 }
 
+footer a:hover {
+	color: #28a745;
+}
 
-/*footer*/		
+/*FOOTER*/		
 footer {
-	padding-top: 30px;
-	background-color: #2F3137;
+	padding-top: 25px;
+	background-color: #343a40;
 	color: white;
 	text-align: center;
-	height: 90px;
 }		
 
 /*bottoni*/
@@ -86,7 +104,7 @@ span.icone {
 
 /*Carousel*/
 .carousel-item img{
-	max-height: 650px;
+	max-height: 600px;
 	object-fit: scale-down;
 }
 
@@ -108,18 +126,18 @@ span.icone {
  /*# perchè è id (quindi id univoco che vale solo per quell'elemento)*/
  #progetto {
  	height: auto;
- 	background-color: #2F3137;
+ 	background-color: #343a40;
  	color: white;
  	text-align: left;
  	padding-top: 30px;
- 	padding-bottom: 30px;
+ 	padding-bottom: 40px;
  	text-align: justify;
  }
 
 #progetto img {
 	float: left;
  	object-fit: scale-down;
- 	padding-top: 20px;
+ 	padding-top: 10px;
  	padding-right: 20px;
  	padding-bottom: 10px;
  }
@@ -144,7 +162,7 @@ span.icone {
  }
 
 .jumbotron div {
-	background-color: rgba(49, 49, 55, 0.7);
+	background-color: rgba(49, 49, 55, 0.8);
 	border-radius: 10px;
 	padding-bottom: 10px;
 	height: 160px;
@@ -152,8 +170,13 @@ span.icone {
 }
 
 .jumbotron hr{
-  	border-top: 1px solid ghostwhite;
-  	opacity: 0.4;
+  border-top: 1px solid ghostwhite;
+  opacity: 0.4;
+ }
+
+ input {
+  	display: inline-block
+  	width: 100%;
  }
 
 #pagination {
@@ -185,14 +208,10 @@ iframe {
 #accordionExample {
 	margin-top: 30px;
 	margin-bottom: 10px;
-	margin-left: 30px;
-	margin-right: 30px;
 }
 
 .descr_item {
 	margin-top: 30px;
-	margin-left: 40px;
-	margin-right: 40px;
 	margin-bottom: 40px;
 }
 
@@ -200,6 +219,11 @@ table, th, td {
 	border:1px solid black;
   	border-collapse: collapse;
 }
+
+aside.item_correlati {
+	margin-left: 25px;
+}
+
 
 /*PERSONA*/
 
