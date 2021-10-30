@@ -148,6 +148,9 @@ span.icone {
 	margin-bottom: 10px;
 }
 
+#cards_home p {
+	line-height: 1.5;
+} 
 
 /*ELENCO E BROWSING*/
 
