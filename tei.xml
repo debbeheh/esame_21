@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<TEI xmlns="http://www.tei-c.org/ns/1.0">
+		<!--Parte1 obbligatoria-->
+		<teiHeader xml:lang="it">
+			<fileDesc>
+			 	<titleStmt>
+			 		<title>Atti della R. accademia dei Lincei. Memorie della Classe di scienze fisiche, matematiche e naturali</title>
+			 		<author>Accademia del Lincei</author>
+			 	</titleStmt>
+			 	<editionStmt> 
+			 		<edition>Serie terza</edition>
+			 	</editionStmt>
+			 	<publicationStmt>
+			 		<publisher>Salviucci</publisher>
+					<pubPlace>Roma</pubPlace>
+					<respStmt>
+						<resp>Digitalizzato da</resp> 
+						<orgName xml:id="BNCR">Biblioteca Nazionale Centrale di Roma</orgName>
+						<resp>TEI realizzato da</resp>
+						<name xml:id="DM">Debora Mazza</name>
+						<availability>
+							<licence>CC BY-NC-SA 4.0 - Attribution-NonCommercial-ShareAlike 4.0 International</licence>
+						</availability>
+					</respStmt>
+			 	</publicationStmt>
+			 	<sourceDesc>
+					<biblStruct>
+						<!---articolo-->
+						<analytic>
+							<author xml:id="GC">Cattani, Giuseppina</author>
+							<title level="a" xml:id="CorpuscoliCattani">Ricerche intorno alla normale tessitura ed alle alterazioni sperimentali dei corpuscoli pacinici degli uccelli (corpuscoli dell'Herbst)</title>
+						</analytic>
+						<monogr>
+							<title level="m">Atti della R. accademia dei Lincei. Memorie della Classe di scienze fisiche, matematiche e naturali</title>
+							<imprint>
+								<biblScope unit="page">321-349</biblScope>
+								<publisher>Salviucci</publisher>
+								<date>1883</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+				</sourceDesc>
+			</fileDesc>
+		</teiHeader>
+		<!--Parte2, prima pagina articolo-->
+		<text>
+			<body>
+				<head type="main">Ricerche intorno alla normale tessitura ed alle alterazioni sperimentali dei <rs type="parolachiave" resp="#DM">
+						corpuscoli pacinici</rs> degli uccelli (<rs type="parolachiave" resp="#DM">corpuscoli dell'Herbst</rs>). 
+						Memoria di <name type="author">GIUSEPPINA CATTANI</name><!--rs "contiene un nome o un'espressione referenziale generica""-->
+				</head>
+				<head type="sub">approvata per la stampa negli Atti dell'Accademia 
+					<hi rend="italic">nella seduta del 3 febbraio 1884.</hi><!--hi "codifica una parola o frase in quanto graficamente distinta dal testo circostante, senza che si faccia alcuna dichiarazione sulle ragioni dell'evidenziazione"-->
+						(Con due tavole).
+					<figure><!--deve stare dentro head o p, in questo caso head perchè fa parte del titolo-->
+						<figDesc>Riga sottile orizzontale</figDesc>
+					</figure>
+				</head>
+				<p>Le poche ed incerte conoscenze che si hanno intorno alla patologia delle ter-
+					minazioni nervose, mi hanno mossa ad intraprendere alcune ricerche sulle alterazioni
+					che per mezzo di esperimenti possono indursi negli organi nervosi terminali. E tra questi
+					ho scelto ad oggetto de'miei studi i <rs type="parolachiave" resp="#DM">corpuscoli del Pacini</rs>, e proprio quelli
+					che si rinvengono disposti in cordone nelle gambe di molte specie di uccelli, e che
+					per essere stati in questi animali primamente rinvenuti dall'Herbst da lui si de-
+					nominano.
+				</p>
+				<p>Ma poichè gli istologi ancora non sono tutti concordi sulla fina struttura di
+					questa come di moltra4e altre maniere di terminazioni nervose, ho dovuto allo studio
+					sperimentale dei <rs type="parolachiave" resp="#DM">corpuscoli pacinici</rs> far procedere alcune indagini sull'intima loro
+					tessitura, limitando peraltro le mie osservazioni a quanto poteva essermi necessario
+					ad interpretare giustamente i fatti patologici.
+				</p>
+				<p><hi rend="italic">Metodo di ricerca.</hi> - Prima di entrare nello studio particolareggiato dell'<rs type="parolachiave" resp="DM">istologia	</rs> normale e patologica dei <rs type="parolachiave" resp="#DM">corpuscoli pacinici</rs>, reputo conveniente premettere alcune
+					parole sul metodo che ho seguito nelle mie ricerche; e siccome per lo studio della
+					normale tessitura dei <rs type="parolachiave" resp="#DM">corpuscoli pacinici</rs> mi sono valsa degli stessi metodi che per
+					quello delle loro alterazioni sperimentali, così ciò ch'io son per dire in quest capi-
+					tolo varrà e per la prima e per la seconda parte del mio lavoro.
+				</p>
+				<p>Dei vari metodi che ho cimentati, solo pochi hanno dato buona prova. Così,
+					ad esempio, quello del cloruro d'oro (compreso il cloruro doppio d'oro e di cadmio
+					recentemente agli istologi adoperato nello studio delle terminazioni nervose), e l'altro
+					dell'acido osmico e cloruro di palladio, non corrisposero al fine delle mie ricerche;
+					giacchè colorando essi nei corpuscoli oltre il cilindrasse anche quella sostanza che
+					vedremo riempire buona parte della clava, impediscono di rilevare i fatti più im-
+					portanti che entro di questa di compiono.
+				</p>
+				<p>Di tre processi che mi sono valsa con vantaggio: due sono basati sul potere che ha
+					l'acido osmico di fissare gli elementi anatomici e render bruna la mielina: il
+					terzo si fonda sulla proprietà che l'ematossilina possiede di colorire vivamente il
+					cilindrasse.
+				</p>
+			</body>
+		</text>
+	</TEI>
