@@ -13,17 +13,21 @@
 			 	<publicationStmt>
 			 		<publisher>Salviucci</publisher>
 					<pubPlace>Roma</pubPlace>
-					<authority>Biblioteca Nazionale Centrale di Roma</authority>
 					<respStmt>
+						<resp>Digitalizzato da</resp> 
+						<orgName xml:id="BNCR">Biblioteca Nazionale Centrale di Roma</orgName>
 						<resp>TEI realizzato da</resp>
 						<name xml:id="DM">Debora Mazza</name>
+						<availability>
+							<licence>CC BY-NC-SA 4.0 - Attribution-NonCommercial-ShareAlike 4.0 International</licence>
+						</availability>
 					</respStmt>
 			 	</publicationStmt>
 			 	<sourceDesc>
 					<biblStruct>
 						<!---articolo-->
 						<analytic>
-							<author xml:id="CG">Cattani, Giuseppina</author>
+							<author xml:id="GC">Cattani, Giuseppina</author>
 							<title level="a">Ricerche intorno alla normale tessitura ed alle alterazioni sperimentali dei corpuscoli pacinici degli uccelli (corpuscoli dell'Herbst)</title>
 						</analytic>
 						<monogr>
@@ -39,15 +43,15 @@
 			</fileDesc>
 		</teiHeader>
 		<!--Parte2, prima pagina articolo-->
-		<body>
-			<text>
-				<head level="main">Ricerche intorno alla normale tessitura ed alle alterazioni sperimentali dei <rs type="parolachiave" resp="#DM">
-					corpuscoli pacinici</rs> degli uccelli (<rs type="parolachiave" resp="#DM">corpuscoli dell'Herbst</rs>). 
-					Memoria di <rs type="author" xml:id="CG">GIUSEPPINA CATTANI</rs><!--rs "contiene un nome o un'espressione referenziale generica""-->
+		<text>
+			<body>
+				<head type="main">Ricerche intorno alla normale tessitura ed alle alterazioni sperimentali dei <rs type="parolachiave" resp="#DM">
+						corpuscoli pacinici</rs> degli uccelli (<rs type="parolachiave" resp="#DM">corpuscoli dell'Herbst</rs>). 
+						Memoria di <name type="author">GIUSEPPINA CATTANI</name><!--rs "contiene un nome o un'espressione referenziale generica""-->
 				</head>
 				<head type="sub">approvata per la stampa negli Atti dell'Accademia 
 					<hi rend="italic">nella seduta del 3 febbraio 1884.</hi><!--hi "codifica una parola o frase in quanto graficamente distinta dal testo circostante, senza che si faccia alcuna dichiarazione sulle ragioni dell'evidenziazione"-->
-					(Con due tavole).
+						(Con due tavole).
 					<figure><!--deve stare dentro head o p, in questo caso head perchè fa parte del titolo-->
 						<figDesc>Riga sottile orizzontale</figDesc>
 					</figure>
@@ -66,7 +70,7 @@
 					tessitura, limitando peraltro le mie osservazioni a quanto poteva essermi necessario
 					ad interpretare giustamente i fatti patologici.
 				</p>
-				<p><hi rend="italic">Metodo di ricerca.</hi> - Prima di entrare nello studio particolareggiato dell'<rs type="parolachiave" resp="DM">istologia		</rs> normale e patologica dei <rs type="parolachiave" resp="#DM">corpuscoli pacinici</rs>, reputo conveniente premettere alcune
+				<p><hi rend="italic">Metodo di ricerca.</hi> - Prima di entrare nello studio particolareggiato dell'<rs type="parolachiave" resp="DM">istologia	</rs> normale e patologica dei <rs type="parolachiave" resp="#DM">corpuscoli pacinici</rs>, reputo conveniente premettere alcune
 					parole sul metodo che ho seguito nelle mie ricerche; e siccome per lo studio della
 					normale tessitura dei <rs type="parolachiave" resp="#DM">corpuscoli pacinici</rs> mi sono valsa degli stessi metodi che per
 					quello delle loro alterazioni sperimentali, così ciò ch'io son per dire in quest capi-
@@ -85,7 +89,6 @@
 					terzo si fonda sulla proprietà che l'ematossilina possiede di colorire vivamente il
 					cilindrasse.
 				</p>
-				<pb><!--fine pagina-->
-			</text>
-		</body>
+			</body>
+		</text>
 	</TEI>
