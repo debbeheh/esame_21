@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mag:metadigit xsi:schemaLocation="http://www.iccu.sbn.it/metaAG1.pdf metadigit.xsd" version="2.0">
-	<mag:gen creation="28-10-2021" last_update="02-11-2021">
+<mag:metadigit  xmlns:dc="http://purl.org/dc/elements/1.1/"
+				xmlns:dcterms="http://purl.org/dc/terms/"
+				xmlns:mag="http://www.iccu.sbn.it/metaAG1.pdf" 
+            	xsi:schemaLocation="http://www.iccu.sbn.it/metaAG1.pdf metadigit.xsd">
+
+	<mag:gen creation="2021-10-28T00:00:00" last_update="2021-11-02T00:00:00">
 		<stprog>https://github.com/debbeheh/esame_21</stprog>
-		<agency>DM</agency>
+		<collection>https://debbeheh.github.io/esame_21/browsing.html</collection>
+		<agency>IT:DM</agency>
+		<access_rights>1</access_rights> <!--uso pubblico-->
+		<completeness>1</completeness> <!--Completezza della digitalizzazione dell'oggetto analogico: incompleto-->
 	</mag:gen>
-	<mag:bib level="a" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xml:id="TesiCattani">
+
+	<mag:bib level="a" xml:id="TesiCattani">
 		<dc.identifier>IT\ICCU\PUV\1124914SBN</dc.identifier>
 		<dc.title>Ricerche intorno alla normale tessitura ed alle alterazioni sperimentali dei corpuscoli pacinici degli uccelli (corpuscoli dell'Herbst)</dc.title>
 		<dc.creator>Giuseppina Cattani</dc.creator>
@@ -24,19 +32,19 @@
 		<dc.coverage>1883-1884</dc.coverage>
 		<dc.rights>CC BY-NC-SA 4.0</dc.rights>
 	</bib>
+
 	<!--DOC metadati amministrativi e gestionali relativi a file di testo born digital-->
-	<mag:doc>
-		<!--sequence_number e nomenclature obbligatori-->
+	<mag:doc xml:id="TesiCattaniXML">
 		<mag:sequence_number>1</mag:sequence_number>
 		<mag:nomenclature>Ricerche intorno alla normale tessitura ed alle alterazioni sperimentali dei corpuscoli pacinici degli uccelli (corpuscoli dell'Herbst) XML</mag:nomenclature>
-		<mag:file Location="URL" xlink:href="https://debbeheh.github.io/esame_21/item.xml"/>
+		<mag:file>https://debbeheh.github.io/esame_21/item.xml</mag:file>
 		<mag:md5>impronta del file?</mag:md5>
 		<mag:filesize>2.03 MB</mag:filesize>
 		<mag:format>
 			<niso:name>XML</niso:name>
 			<niso:mime>text/xml</niso:mime>
 		</mag:format>
-		<mag:datetimecreated>28-10-2021 00.00.00</mag:datetimecreated>
+		<mag:datetimecreated>2021-10-28T00:00:00</mag:datetimecreated>
 	</mag:doc>
 </mag:metadigit>
 
