@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mag:metadigit  xmlns:dc="http://purl.org/dc/elements/1.1/"
-				xmlns:dcterms="http://purl.org/dc/terms/"
-				xmlns:mag="http://www.iccu.sbn.it/metaAG1.pdf" 
-            	xsi:schemaLocation="http://www.iccu.sbn.it/metaAG1.pdf metadigit.xsd">
+<mag:metadigit xmlns:mag="http://www.iccu.sbn.it/metaAG1.pdf" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:niso="http://www.niso.org/pdfs/DataDict.pdf" 
+	xmlns:dc="http://purl.org/dc/elements/1.1/" 
+	xmlns="http://www.iccu.sbn.it/metaAG1.pdf" 
+	xsi:schemaLocation="http://www.iccu.sbn.it/metaAG1.pdf metadigit.xsd" version="2.0">
 
-	<mag:gen creation="2021-10-28T00:00:00" last_update="2021-11-02T00:00:00">
+	<mag:gen creation="2021-10-28T00:00:00" last_update="2021-11-02T00:00:00"> <!--niso data-->
 		<stprog>https://github.com/debbeheh/esame_21</stprog>
 		<collection>https://debbeheh.github.io/esame_21/browsing.html</collection>
 		<agency>IT:DM</agency>
@@ -31,7 +33,7 @@
 		<dc.language>Italiano</dc.language>
 		<dc.coverage>1883-1884</dc.coverage>
 		<dc.rights>CC BY-NC-SA 4.0</dc.rights>
-	</bib>
+	</mag:bib>
 
 	<!--DOC metadati amministrativi e gestionali relativi a file di testo born digital-->
 	<mag:doc xml:id="TesiCattaniXML">
