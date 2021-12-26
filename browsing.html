@@ -157,27 +157,49 @@
 									</form>
 								</div>
 							</div>
+							<!--Filtro disciplina DDC-->
+							<hr class="my-6">
+							<h5><a href="https://www.aib.it/pubblicazioni/webdewey-italiana/introduzione/#_Toc369769313" title="Cos'è DDC?" target="_blank"><i class="bi bi-question-circle-fill"></i></a> Codice Dewey</h5>
+							<div class="dropdown">
+								<button class="btn btn-secondary dropdown-toggle btn-block" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Disciplina</button>
+								<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+								  <form action="/action_page.php">
+									  <input type="checkbox" id="Istologia" name="fav_language" value="Istologiaa">
+									  <label for="Istologia">571.5 - Istologia</label><br>
+									  <input type="checkbox" id="Anatomia comparata" name="fav_language" value="Anatomia comparata">
+									  <label for="Anatomia comparata">591.4 - Anatomia comparata</label><br>
+									  <input type="checkbox" id="Flora italiana" name="fav_language" value="Flora italiana">
+									  <label for="Flora italiana">581 - Flora italiana</label><br>
+									  <input type="checkbox" id="Apicoltura" name="fav_language" value="Apicoltura">
+									  <label for="Apicoltura">638.1 - Apicoltura</label><br>
+									  <input type="checkbox" id="Malattie batteriche, virali e parassitarie" name="fav_language" value="Malattie batteriche, virali e parassitarie">
+									  <label for="Malattie batteriche, virali e parassitarie">616.9 - Malattie batteriche, virali e parassitarie</label><br>
+									  <input type="submit" value="Cerca">
+									</form>
+								</div>
 							<hr class="my-6">
 							<!--parole chiavi-->
-							<h5>Parole chiave</h5>
-							<nav class="navbar navbar-light">
-							  	<form class="form-inline">
-							    	<div class="input-group">
-							      		<div class="input-group-prepend">
-							        		<span class="input-group-text" id="basic-addon1"><i class="bi bi-tag"></i></span>
-							      		</div>
-							      		<input class="form-control" type="text" placeholder="Search...">
-							    	</div>
-							    	<button type="button" class="btn btn-outline-secondary">Filtra</button>
-							  	</form>
-							</nav>
-							<hr class="my-6">
-							<h5>Parole chiave più popolari</h5>
-							<button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-tag"></i> Istologia</button> 
-							<button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-tag"></i> Leggi razziali</button>  
-							<button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-tag"></i> Api</button>
-							<button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-tag"></i> Compenso</button>
-							<button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-tag"></i> Laurea</button>
+							<div>
+								<h5>Parole chiave</h5>
+								<nav class="navbar navbar-light">
+									<form class="form-inline">
+										<div class="input-group">
+											<div class="input-group-prepend">
+												<span class="input-group-text" id="basic-addon1"><i class="bi bi-tag"></i></span>
+											</div>
+											<input class="form-control" type="text" placeholder="Search...">
+										</div>
+										<button type="button" class="btn btn-outline-secondary">Filtra</button>
+									</form>
+								</nav>
+								<hr class="my-6">
+								<h5>Parole chiave più popolari</h5>
+								<button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-tag"></i> Diploma</button> 
+								<button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-tag"></i> Leggi razziali</button>  
+								<button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-tag"></i> Api</button>
+								<button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-tag"></i> Bufo vulgaris</button>
+								<button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-tag"></i> Laurea</button>
+							</div>
 						</aside>
 					</div>
 
@@ -193,8 +215,6 @@
 							  	<li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-file-earmark-text"></i> Pubblicazioni</a>
 							  	</li>
 							  	<li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-folder"></i> Atti</a>
-							  	</li>
-							  	<li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-envelope"></i> Carteggi</a>
 							  	</li>
 							</ul>
 						</div>
@@ -234,7 +254,7 @@
 					         <div class="col-md-4 col-sm-12 col-xs-12">
 					        	<!--item card 3-->	         
 								<div class="card">
-									<span class="icone"> <i class="bi bi-envelope"></i></span>
+									<span class="icone"> <i class="bi bi-folder"></i></span>
 							  		<img src="immg/cattani_codronchi_carteggio.png" alt="Corrispondenza tra Giuseppina Cattani e Giovanni Codronchi Jr."/>
 									<div class="card-body">
 										<h6 class="card-title">Corrispondenza tra Giuseppina Cattani e Giovanni Codronchi Jr.</h6>

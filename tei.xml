@@ -45,12 +45,12 @@
 		<!--Parte2, prima pagina articolo-->
 		<text>
 			<body>
-				<head type="main">Ricerche intorno alla normale tessitura ed alle alterazioni sperimentali dei <rs type="parolachiave" resp="#DM">
+				<head type="main" xml:id="CorpuscoliCattani">Ricerche intorno alla normale tessitura ed alle alterazioni sperimentali dei <rs type="parolachiave" resp="#DM">
 						corpuscoli pacinici</rs> degli uccelli (<rs type="parolachiave" resp="#DM">corpuscoli dell'Herbst</rs>). 
-						Memoria di <name type="author">GIUSEPPINA CATTANI</name><!--rs "contiene un nome o un'espressione referenziale generica""-->
+						Memoria di <name type="author" xml:id="GC">GIUSEPPINA CATTANI</name><!--rs "contiene un nome o un'espressione referenziale generica""-->
 				</head>
 				<head type="sub">approvata per la stampa negli Atti dell'Accademia 
-					<hi rend="italic">nella seduta del 3 febbraio 1884.</hi><!--hi "codifica una parola o frase in quanto graficamente distinta dal testo circostante, senza che si faccia alcuna dichiarazione sulle ragioni dell'evidenziazione"-->
+					<hi rend="italic">nella seduta del <date>3 febbraio 1884</date>.</hi><!--hi "codifica una parola o frase in quanto graficamente distinta dal testo circostante, senza che si faccia alcuna dichiarazione sulle ragioni dell'evidenziazione"-->
 						(Con due tavole).
 					<figure><!--deve stare dentro head o p, in questo caso head perchè fa parte del titolo-->
 						<figDesc>Riga sottile orizzontale</figDesc>
