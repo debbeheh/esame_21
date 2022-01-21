@@ -35,11 +35,10 @@
           <foaf:name>Giulio Bizzozero</foaf:name>
           <foaf:seeAlso rdf:resource="http://viaf.org/viaf/47563523"/> 
         </foaf:Person>
-            <foaf:Person rdf:ID="Guido Tizzoni">
+        <foaf:Person rdf:ID="Guido Tizzoni">
           <foaf:name>Guido Tizzoni</foaf:name>
           <foaf:seeAlso rdf:resource="http://viaf.org/viaf/168282828"/> 
         </foaf:Person>
-        </foaf:knows>
       </foaf:knows>
 
     </foaf:Person>
