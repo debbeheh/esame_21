@@ -15,7 +15,6 @@
       <foaf:givenname>Peppina</foaf:givenname>
       <foaf:gender>Female</foaf:gender>
       <foaf:birthday>26 maggio 1859</foaf:birthday>
-
       <!--Conoscenze-->      
       <foaf:knows> 
         <foaf:Person rdf:ID="Andrea Costa">
@@ -40,7 +39,5 @@
           <foaf:seeAlso rdf:resource="http://viaf.org/viaf/168282828"/> 
         </foaf:Person>
       </foaf:knows>
-
     </foaf:Person>
-
   </rdf:RDF>
