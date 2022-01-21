@@ -27,7 +27,7 @@
 					<biblStruct>
 						<!---articolo-->
 						<analytic>
-							<author xml:id="GC">Cattani, Giuseppina</author>
+							<author xml:id="Giseppina Cattani">Cattani, Giuseppina</author>
 							<title level="a" xml:id="CorpuscoliCattani">Ricerche intorno alla normale tessitura ed alle alterazioni sperimentali dei corpuscoli pacinici degli uccelli (corpuscoli dell'Herbst)</title>
 						</analytic>
 						<monogr>
@@ -47,7 +47,7 @@
 			<body>
 				<head type="main" xml:id="CorpuscoliCattani">Ricerche intorno alla normale tessitura ed alle alterazioni sperimentali dei <rs type="parolachiave" resp="#DM">
 						corpuscoli pacinici</rs> degli uccelli (<rs type="parolachiave" resp="#DM">corpuscoli dell'Herbst</rs>). 
-						Memoria di <name type="author" xml:id="GC">GIUSEPPINA CATTANI</name><!--rs "contiene un nome o un'espressione referenziale generica""-->
+						Memoria di <name type="author" xml:id="Giuseppina Cattani">GIUSEPPINA CATTANI</name><!--rs "contiene un nome o un'espressione referenziale generica""-->
 				</head>
 				<head type="sub">approvata per la stampa negli Atti dell'Accademia 
 					<hi rend="italic">nella seduta del <date>3 febbraio 1884</date>.</hi><!--hi "codifica una parola o frase in quanto graficamente distinta dal testo circostante, senza che si faccia alcuna dichiarazione sulle ragioni dell'evidenziazione"-->
@@ -59,13 +59,13 @@
 				<p n="1">Le poche ed incerte conoscenze che si hanno intorno alla patologia delle ter-
 					minazioni nervose, mi hanno mossa ad intraprendere alcune ricerche sulle alterazioni
 					che per mezzo di esperimenti possono indursi negli organi nervosi terminali. E tra questi
-					ho scelto ad oggetto de'miei studi i <rs type="parolachiave" resp="#DM">corpuscoli del Pacini</rs>, e proprio quelli
+					ho scelto ad oggetto de'miei studi i corpuscoli del <surname ref="https://viaf.org/viaf/7380588/" type="person" xml:id="Filippo Pacini">Pacini</surname>, e proprio quelli
 					che si rinvengono disposti in cordone nelle gambe di molte specie di uccelli, e che
-					per essere stati in questi animali primamente rinvenuti dall'<rs type="parolachiave" resp="#DM">Herbst</rs> da lui si de-
+					per essere stati in questi animali primamente rinvenuti dall'<surname ref="https://viaf.org/viaf/212423654/" type="person" xml:id="Curt Alfred Herbst">Herbst</surname> da lui si de-
 					nominano.
 				</p>
 				<p n="2">Ma poichè gli istologi ancora non sono tutti concordi sulla fina struttura di
-					questa come di moltra4e altre maniere di terminazioni nervose, ho dovuto allo studio
+					questa come di molte altre maniere di terminazioni nervose, ho dovuto allo studio
 					sperimentale dei <rs type="parolachiave" resp="#DM">corpuscoli pacinici</rs> far procedere alcune indagini sull'intima loro
 					tessitura, limitando peraltro le mie osservazioni a quanto poteva essermi necessario
 					ad interpretare giustamente i fatti patologici.

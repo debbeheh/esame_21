@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <rdf:RDF 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
+    xmlns:dc= "http://purl.org/dc/elements/1.1/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:pro="http://purl.org/spar/pro">
+    
+    <!--Persona-->
+    <foaf:Person rdf:about="https://viaf.org/viaf/90205027/" rdf:ID="Giuseppina Cattani">
+      <foaf:img rdf:resource="https://it.wikipedia.org/wiki/Giuseppina_Cattani#/media/File:Giuseppina_Cattani.jpg"/>
+      <foaf:name>Giuseppina</foaf:name>
+      <foaf:family_name>Cattani</foaf:family_name>
+      <foaf:title>Dott.ssa</foaf:title>
+      <foaf:givenname>Peppina</foaf:givenname>
+      <foaf:gender>Female</foaf:gender>
+      <foaf:birthday>26 maggio 1859</foaf:birthday>
+
+      <!--Conoscenze-->      
+      <foaf:knows> 
+        <foaf:Person rdf:ID="Andrea Costa">
+          <foaf:name>Andrea Costa</foaf:name>
+          <rdfs:seeAlso rdf:resource="http://viaf.org/viaf/62357877"/>
+        </foaf:Person>
+        <foaf:Person rdf:ID="Anna Kuliscioff">
+          <foaf:name>Anna Kuliscioff</foaf:name>
+          <foaf:seeAlso rdf:resource="http://viaf.org/viaf/32123495"/>
+          <foaf:seeAlso rdf:resource="http://scienzaa2voci.unibo.it/biografie/57-rosenstejn-detta-kuliscioff-anna-anja?searchterm=kulis"/>
+        </foaf:Person>
+        <foaf:Person rdf:ID="Elisa Norsa">
+          <foaf:name>Elisa Norsa</foaf:name>
+          <foaf:seeAlso rdf:resource="http://scienzaa2voci.unibo.it/biografie/79-norsa-gurrieri-elisa"/> 
+        </foaf:Person>
+        <foaf:Person rdf:ID="Giulio Bizzozero">
+          <foaf:name>Giulio Bizzozero</foaf:name>
+          <foaf:seeAlso rdf:resource="http://viaf.org/viaf/47563523"/> 
+        </foaf:Person>
+            <foaf:Person rdf:ID="Guido Tizzoni">
+          <foaf:name>Guido Tizzoni</foaf:name>
+          <foaf:seeAlso rdf:resource="http://viaf.org/viaf/168282828"/> 
+        </foaf:Person>
+        </foaf:knows>
+      </foaf:knows>
+
+    </foaf:Person>
+
+  </rdf:RDF>
