@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mag:metadigit xmlns:mag="http://www.iccu.sbn.it/metaAG1.pdf" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:niso="http://www.niso.org/pdfs/DataDict.pdf" 
+	xmlns:dc="http://purl.org/dc/elements/1.1/" 
+	xmlns="http://www.iccu.sbn.it/metaAG1.pdf" 
+	xsi:schemaLocation="http://www.iccu.sbn.it/metaAG1.pdf metadigit.xsd" version="2.0">
+
+	<mag:gen creation="2021-11-28T00:00:00" last_update="2022-01-115T00:00:00"> <!--niso data-->
+		<stprog>https://github.com/debbeheh/esame_21</stprog>
+		<collection>https://debbeheh.github.io/esame_21/browsing.html</collection>
+		<agency>IT:DM</agency>
+		<access_rights>1</access_rights> <!--uso pubblico-->
+		<completeness>1</completeness> <!--Completezza della digitalizzazione dell'oggetto analogico: incompleto-->
+	</mag:gen>
+
+	<mag:bib level="a" xml:id="TesiCattani">
+		<dc.identifier>IT\ICCU\PUV\1124914SBN</dc.identifier>
+		<dc.title>Ricerche intorno alla normale tessitura ed alle alterazioni sperimentali dei corpuscoli pacinici degli uccelli (corpuscoli dell'Herbst)</dc.title>
+		<dc.creator>Giuseppina Cattani</dc.creator>
+		<dc.date>1883</dc.date>
+		<dc.subject>Corpuscoli pacinici</dc.subject> 
+		<dc.subject>Corpuscoli dell'Herbst</dc.subject>
+		<dc.subject>Istologia</dc.subject>
+		<dc.description>Tesi di laurea "Ricerche intorno alla normale tessitura ed alle alterazioni sperimentali dei corpuscoli pacinici degli uccelli (corpuscoli dell'Herbst)" ad opera di Giuseppina Cattani. Lavoro eseguito sotto la direzione di Guido Tizzoni.</dc.description>
+		<dc.publisher>Salviucci</dc.publisher>
+		<dc.contributor>Accademia dei Lincei</dc.contributor>
+		<dc.type>Text</dc.type>
+		<dc.format>elettronico - pdf</dc.format>
+		<dc.source>Atti della R. accademia dei Lincei. Memorie della Classe di scienze fisiche, matematiche e naturali, pp. 321-349</dc.source>
+		<dc.relation>https://www.google.it/books/edition/Atti_della_R_accademia_dei_Lincei_Memori/1oSQpCLxaKoC?hl=itgbpv=0</dc.relation>
+		<dc.provenance>Biblioteca Nazionale Centrale di Roma</dc.provenance>
+		<dc.language>Italiano</dc.language>
+		<dc.coverage>1883-1884</dc.coverage>
+		<dc.rights>CC BY-NC-SA 4.0</dc.rights>
+	</mag:bib>
+
+	<!--DOC metadati amministrativi e gestionali relativi a file di testo born digital-->
+	<mag:doc xml:id="TesiCattaniXML">
+		<mag:sequence_number>1</mag:sequence_number>
+		<mag:nomenclature>Ricerche intorno alla normale tessitura ed alle alterazioni sperimentali dei corpuscoli pacinici degli uccelli (corpuscoli dell'Herbst) XML</mag:nomenclature>
+		<mag:file>https://debbeheh.github.io/esame_21/item.xml</mag:file>
+		<mag:md5>impronta del file?</mag:md5>
+		<mag:filesize>2.03 MB</mag:filesize>
+		<mag:format>
+			<niso:name>XML</niso:name>
+			<niso:mime>text/xml</niso:mime>
+		</mag:format>
+		<mag:datetimecreated>2021-11-28T00:00:00</mag:datetimecreated>
+	</mag:doc>
+</mag:metadigit>
+

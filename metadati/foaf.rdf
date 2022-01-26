@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <!--Persona-->
+    <foaf:Person rdf:about="https://viaf.org/viaf/90205027/">
+      <foaf:img rdf:resource="https://it.wikipedia.org/wiki/Giuseppina_Cattani#/media/File:Giuseppina_Cattani.jpg"/>
+      <foaf:name>Giuseppina</foaf:name>
+      <foaf:family_name>Cattani</foaf:family_name>
+      <foaf:title>Dott.ssa</foaf:title>
+      <foaf:givenname>Peppina</foaf:givenname>
+      <foaf:gender>Female</foaf:gender>
+      <foaf:birthday>26 maggio 1859</foaf:birthday>
+
+      <!--Conoscenze-->      
+      <foaf:knows> 
+        <foaf:Person rdf:about="http://viaf.org/viaf/62357877">
+          <foaf:name>Andrea Costa</foaf:name>
+        </foaf:Person>
+      </foaf:knows>
+      <foaf:knows>
+        <foaf:Person rdf:about="http://viaf.org/viaf/32123495">
+          <foaf:name>Anna Kuliscioff</foaf:name>
+        </foaf:Person>
+      </foaf:knows>
+      <foaf:knows>
+        <foaf:Person rdf:about="http://viaf.org/viaf/18006254">
+          <foaf:name>Elisa Norsa</foaf:name>
+        </foaf:Person>
+      </foaf:knows>
+      <foaf:knows>
+        <foaf:Person rdf:about="http://viaf.org/viaf/47563523">
+          <foaf:name>Giulio Bizzozero</foaf:name>
+        </foaf:Person>
+      </foaf:knows>
+      <foaf:knows>
+        <foaf:Person rdf:about="http://viaf.org/viaf/168282828">
+          <foaf:name>Guido Tizzoni</foaf:name>
+        </foaf:Person>
+      </foaf:knows>
+    </foaf:Person>
+  </rdf:RDF>
